@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive files
+*.tfvars
+*.pem
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
